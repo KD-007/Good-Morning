@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <section class="top">
+        <div class="weather_block">
+            <div class="weather">
+               
+                    <div class="icon-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-sun" style="color: rgb(251, 251, 26); font-size: 5rem;"></i>
+
+                    </div>
+                   
+                        <div class=" wave wave1"></div>
+                        <div class="wave wave2"></div>
+                        <div class="wave wave3"></div>
+                   
+                </div>
+                    <div class="info">
+                        <h1 class="location">
+                            <i class="fa-solid fa-street-view"></i>
+                            {%city%}, {%country%}
+                        </h1>
+                        <p class="date">date  , time</p>
+                        <h1 class="temp">{%temp%}</h1>
+                        <h3 class="tempMinMax">min:{%min%} / max: {%max%}</h3>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="search-box">
+            <form class="search">
+                <input type="text" name="cityName" placeholder="Enter city name">
+                <button >Search</button>
+            </form>
+        </div>
+       
+        <div class="square">
+
+        </div>
+        
+    </section>
+
+ <section class="quote-block">
+            <div class="quote-box">
+                <img src="img/pngegg.png" alt="for tweet" title="for tweet">
+                <div class="quote"> <svg class="icon-quote" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+                   <p> quote quote quote Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, ab!
+                     </p>
+                   </div>
+                <div class="author">~Authore</div>
+                <button class="btn2 btd" title="Next quote">>></button>
+               
+            </div>
+            <div class="im">
+               
+            </div>
+ </section>
+   <section class="bottom-section">
+    <h1 class="h2">Your plans for today?</h1>
+    <div class="color-block">
+
+        <div class="bottom">
+            
+            <form class="add-todo">
+                <input type="text"placeholder="ADD ToDo">
+                <button>ADD ToDo</button>
+            </form>
+            <ul class="todo">
+                <li class="todo-list">
+                
+                    <span >todo data</span>
+                    <div>
+                    <button class="btn2 done">done</button>
+                    <button class="btn2 remove">remove</button>
+                    </div>
+            </li>
+            </ul>
+        </div>    
+    </div>
+
+   </section>
+   
+    <footer></footer>
+</body>
+</html>
